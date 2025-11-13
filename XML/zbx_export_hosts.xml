@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>7.0</version>
+    <host_groups>
+        <host_group>
+            <uuid>ec50fa856fa542bbba85796d423c2e92</uuid>
+            <name>Customer/SPOS</name>
+        </host_group>
+    </host_groups>
+    <hosts>
+        <host>
+            <host>ubuntu-karmazinm</host>
+            <name>ubuntu-karmazinm</name>
+            <groups>
+                <group>
+                    <name>Customer/SPOS</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <ip>86.49.188.67</ip>
+                    <dns>ip-86-49-188-67.net.vodafone.cz</dns>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <tags>
+                <tag>
+                    <tag>OS</tag>
+                    <value>Linux</value>
+                </tag>
+            </tags>
+            <inventory_mode>AUTOMATIC</inventory_mode>
+        </host>
+    </hosts>
+</zabbix_export>
