@@ -4,7 +4,7 @@
 sudo apt-get install -y net-tools
 
 # Stažení balíčku pro instalaci zabbix repo
-sudo wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest+ubuntu22.04_all.deb
+sudo wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest+ubuntu22.04_all.deb
 
 # Instalace meta balíčku
 sudo dpkg -i zabbix-release_latest+ubuntu22.04_all.deb
